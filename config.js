@@ -1,21 +1,21 @@
 const config = {
   "meta": {
-    "pageTitle": "Win $400 Blue Jays Tickets - Summer Game Night Giveaway!",
-    "navBrandLogoText": "Julian Kashani",
-    "privacyPolicyLink": "https://property.ca/privacy"
+    "pageTitle": "Win $300 Date Night: Babysitting + Barque Dinner!",
+    "navBrandLogoText": "Kevin Yu",
+    "privacyPolicyLink": ""
   },
   "giveaway": {
-    "heroHeadline": "Win <span class='highlight'>Free Toronto Blue Jays Tickets</span> for an Epic Summer Game Night!",
-    "heroSubheadline": "Score two premium seats to see the Toronto Blue Jays take on the Texas Rangers, valued at $400! Make your summer unforgettable with this all-star night out. Entry closes July 25th, winner picked July 29th.",
-    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/3x4pjwf8h1rma0cqhn6tw7t808.jpg",
-    "promotionDates": "Enter from June 27th to July 25th, 2025 - winner announced July 29th!",
-    "endDate": "2025-07-26T03:59:00.000Z",
+    "heroHeadline": "Win <span class='highlight'>$100 Babysitting Cash</span> + <span class='highlight'>$200 Barque Dinner</span>!",
+    "heroSubheadline": "Take a real night off. You pick the sitter. I cover $100 cash and a $200 Barque Smokehouse gift card in Roncesvalles. Total $300 value. Draw on Nov 11, 2025.",
+    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/79bcj0pepdrm80csqvyr5a61mm.jpg",
+    "promotionDates": "Enter from Oct 14 to Nov 10, 2025. Winner announced Nov 11, 2025.",
+    "endDate": "2025-11-11T04:59:00.000Z",
     "heroCtaText": "Enter to Win Now!",
-    "entryFormCtaText": "Enter Game Night Draw!",
-    "name": "Blue Jays Summer Game Night Giveaway",
+    "entryFormCtaText": "Enter My Family Now!",
+    "name": "Date Night Giveaway — Babysitting + Barque",
     "successModalHeaderText": "You’re in the Draw!",
-    "successModalMainMessage": "Your entry for the <strong>Toronto Blue Jays Summer Game Night</strong> is in! Winner will be announced July 29th and notified by email. Good luck!",
-    "successModalEmailPrompt": "Watch your email and keep July 29th on your calendar—you could be on your way to the ballpark!"
+    "successModalMainMessage": "Your entry for the <strong>Date Night Giveaway — Babysitting + Barque</strong> is in! We’ll announce the winner on Nov 11, 2025 and notify them by email. Good luck!",
+    "successModalEmailPrompt": "Watch your email on Nov 11 — you could be headed to Barque with the sitter covered!"
   },
   "settings": {
     "confettiColors": [
@@ -25,7 +25,7 @@ const config = {
     ],
     "showCountdownInHero": true,
     "theme": "dark",
-    "primaryColorOverride": "#0055A4",
+    "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
     "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
@@ -35,142 +35,159 @@ const config = {
   },
   "thankYouPage": {
     "pageTitle": "Thank You for Your Entry!",
-    "headerText": "🎉 ONE MORE STEP",
-    "mainMessage": "Your spot for the <strong>Toronto Blue Jays Summer Game Night</strong> is almost locked in! You've made it to the final step of the giveaway - congratulations! Now all you need to do is follow my social media accounts to officially lock in your entry and stay connected",
-    "socialPromptText": "FOLLOW BOTH TO WIN! Complete Your Entry Now"
+    "headerText": "You’re In!",
+    "mainMessage": "Your entry for the Date Night Giveaway has been received. We will draw the winner on Nov 11, 2025 and contact them by email. Good luck!",
+    "socialPromptText": "Watch your email on Nov 11. Follow us on Instagram and Facebook for the winner post."
   },
   "prize": {
     "images": [
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/hg2dnqs7yhrm80cqhn79nt68j8.jpg",
-        "alt": "Cheering fans at a Blue Jays baseball game"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/qhqwj9skk5rm80csqvzb4d4a4g.jpg",
+        "alt": "Couple enjoying dinner at Barque Smokehouse in Roncesvalles"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/bk4ehhbc35rmc0cqhn78wzw7t8.jpg",
-        "alt": "Couple enjoying a summer night at the Rogers Centre"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/7t10gm4n6srmc0csqvz8mg0r0r.jpg",
+        "alt": "Babysitter reading a book with a young child"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/w99mghnswxrm80cqhn7bm108b0.jpg",
-        "alt": "Exciting baseball action between Toronto Blue Jays and Texas Rangers"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/jkwntyfvhhrme0csqvz9xpmpgw.jpg",
+        "alt": "Roncesvalles Avenue at dusk with cozy restaurant vibes"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/wzcq768e4drme0cqhn7v49g7tr.jpg",
-        "alt": "Tickets for a premier Blue Jays game experience"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/m7pr7ejx79rm80csqvzrfh9etw.jpg",
+        "alt": "Parents smiling on a date night out"
       }
     ],
     "includedItems": [
       {
-        "icon": "fas fa-baseball-ball",
-        "text": "Two premium tickets to Blue Jays vs. Rangers"
+        "icon": "fas fa-child",
+        "text": "$100 cash for the babysitter you choose"
       },
       {
-        "icon": "fas fa-user-friends",
-        "text": "Perfect for couples, friends, or a special family outing"
+        "icon": "fas fa-utensils",
+        "text": "$200 gift card to Barque Smokehouse (Roncesvalles)"
       },
       {
-        "icon": "fas fa-star",
-        "text": "$400 total value - for a big-time experience"
+        "icon": "fas fa-handshake",
+        "text": "Cash handoff in person at a safe, public spot"
       },
       {
-        "icon": "fas fa-city",
-        "text": "Catch live baseball in downtown Toronto"
+        "icon": "fas fa-heart",
+        "text": "A true night off for busy parents"
       },
       {
-        "icon": "fas fa-calendar-day",
-        "text": "Game date: Summer 2025, Texas Rangers matchup"
+        "icon": "fas fa-building",
+        "text": "Perfect for condo and townhouse families"
       }
     ],
-    "name": "Toronto Blue Jays Summer Game Night Experience",
-    "value": "$400 Value",
-    "description": "Imagine you and your favorite person cheering in the stands as the Blue Jays play live against the Texas Rangers! Feel the rush, eat ballpark snacks, and enjoy a big summer night in the city. This giveaway gets you <span class='highlight'>two premium tickets</span> for the best seats in the house. Whether it’s a fun date or a night with a friend, you’ll remember it all year long.",
-    "limitedTimeOfferText": "Summer Only - Limited Entry!",
-    "ctaButtonText": "I Want These Game Tickets!"
+    "name": "Date Night in Roncesvalles: Barque + Babysitting",
+    "value": "$300 Value",
+    "description": "Picture this. No dishes. No rush. Just you and your partner, great BBQ at Barque, and time to talk and laugh. Your babysitter? You choose. I give you $100 cash in person, so your sitter is covered. Then enjoy a $200 gift card to Barque Smokehouse. Make the night simple. Make it special.",
+    "limitedTimeOfferText": "Fall Giveaway — Ends Soon!",
+    "ctaButtonText": "I Want This Date Night!"
   },
   "howToEnter": {
     "steps": [
       {
         "icon": "fas fa-edit",
-        "title": "Fill Out the Form",
-        "description": "Enter your name and email in the quick form below—done in under 30 seconds!"
+        "title": "Fill the Quick Form",
+        "description": "Add your name and email. Takes under 30 seconds."
       },
       {
         "icon": "fas fa-question-circle",
-        "title": "Answer Simple Questions",
-        "description": "Tell us a little about who you’d bring and why you’d love this summer baseball night."
+        "title": "Answer 3–4 Short Questions",
+        "description": "Tell us a bit about your family and space needs."
       },
       {
         "icon": "fas fa-trophy",
-        "title": "Get Your Chance to Win!",
-        "description": "That’s it! Watch your inbox—winner picked July 29th."
+        "title": "You’re Entered!",
+        "description": "We draw on Nov 11, 2025 and email the winner."
       }
     ],
     "highlights": [
       {
         "icon": "fas fa-clock",
-        "text": "Super quick and easy entry"
+        "text": "Fast 30-second entry"
       },
       {
         "icon": "fas fa-gift",
-        "text": "No purchase needed"
+        "text": "Free to enter"
       },
       {
-        "icon": "fas fa-heart",
-        "text": "Great night out with someone special"
+        "icon": "fas fa-users",
+        "text": "Made for busy parents"
       },
       {
-        "icon": "fas fa-star",
-        "text": "Random, fair winner pick"
+        "icon": "fas fa-random",
+        "text": "Fair, random draw"
+      },
+      {
+        "icon": "fas fa-map-marker-alt",
+        "text": "Local Roncesvalles prize"
+      },
+      {
+        "icon": "fas fa-shield-alt",
+        "text": "Safe public meet-up for cash"
       }
     ]
   },
   "rules": {
-    "finePrintText": "Please read the fine print before entering. Anyone can enter.",
+    "finePrintText": "Please read the fine print before entering. Adults 18+ in Toronto/GTA. One entry per person.",
     "showTipsSection": true,
     "faq": [
       {
-        "q": "Who can enter this giveaway?",
-        "a": "Anyone 18 or older living in Ontario can enter. Couples, families, and friends are welcome!"
+        "q": "Who can enter?",
+        "a": "Adults 18+ in Toronto and the GTA. One entry per person."
       },
       {
         "q": "How will I know if I win?",
-        "a": "Winner will get an email from jk@property.ca on July 29th. Check your inbox and spam!"
+        "a": "We email the winner on Nov 11, 2025. Please check your inbox and spam."
       },
       {
-        "q": "Do I have to pay for anything?",
-        "a": "Nope—the tickets are totally free! Just show up and enjoy the game."
+        "q": "Do I need to find my own babysitter?",
+        "a": "Yes. You pick the sitter you trust. We give you $100 cash to cover it."
       },
       {
-        "q": "What if I can’t make the game?",
-        "a": "If you can’t attend, let us know so someone else can use this amazing prize."
+        "q": "Where is the dinner?",
+        "a": "Barque Smokehouse on Roncesvalles. The prize is a $200 gift card."
+      },
+      {
+        "q": "Is this sponsored by Barque?",
+        "a": "No. This giveaway is by the Kevin Yu Real Estate Team and not by Barque Smokehouse."
+      },
+      {
+        "q": "Will you try to sell me a home?",
+        "a": "No pressure ever. We help families who need more space. If you want tips or help, we’re here."
       }
     ],
     "tips": [
-      "Double-check your email for typos—make sure you can be reached",
-      "Think of who you'd take for this special night",
-      "Tell family and friends to enter too",
-      "Follow Julian Kashani on Instagram or Facebook for the winner post"
+      "Use a correct email so we can reach you if you win",
+      "Follow us on Instagram and Facebook for the winner post",
+      "Share with a parent who needs a night off",
+      "Answer the short questions so we can serve local families better"
     ],
     "fairSelectionInfo": {
-      "title": "Fair and Random Drawing",
-      "text": "Every entry has the same fair shot! Winner is chosen by a random draw. No tricks, just luck."
+      "title": "Fair and Random Winner Selection",
+      "text": "Every entry has the same chance. We use a random draw tool. No tricks. No buy-in. Just a clean, fair pick."
     },
     "importantNotice": {
-      "title": "Watch Your Email",
-      "text": "Only the email you use here will be contacted. Be sure to check your spam, too, on July 29th."
+      "title": "How the Babysitting Cash Works",
+      "text": "You choose your own sitter. We will meet in a public place to hand you the $100 cash and the $200 Barque gift card. Please bring photo ID for safety."
     }
   },
   "entryForm": {
     "sharePlatforms": {
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-558.netlify.app%2Fadmin",
-      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-558.netlify.app%2Fadmin&text=Win%20Toronto%20Blue%20Jays%20Tickets%20for%20an%20Epic%20Summer%20Game%20Night!"
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2FGiveaway-547.netlify.app%2Fadmin",
+      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2FGiveaway-547.netlify.app%2Fadmin&text=Win%20%24300%20Date%20Night%3A%20Babysitting%20%2B%20Barque%20Dinner%21"
     },
-    "subtitle": "Enter your details below for a shot at your dream Blue Jays night out!",
-    "entryCountText": "Hundreds of Toronto fans are already in—don’t miss your chance!",
-    "socialSharePrompt": "Share with your friends—make it a race to win!"
+    "subtitle": "Enter your details for a chance to win a $300 Date Night: babysitting covered and dinner at Barque!",
+    "entryCountText": "Local families are entering now. Don’t miss out.",
+    "socialSharePrompt": "Know a parent who needs a break? Share this giveaway:",
+    "entryFormSubmitButtonText": "Enter My Family Now!"
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750445840887_0",
+      "id": "q_auto_1757969005264_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -192,7 +209,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750445840887_1",
+      "id": "q_auto_1757969005264_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -200,8 +217,8 @@ const config = {
           "text": "Yes, sometime in 2025"
         },
         {
-          "value": "Yes, in the next 1–2 years",
-          "text": "Yes, in the next 1–2 years"
+          "value": "Yes, in the next 1 - 2 years",
+          "text": "Yes, in the next 1 - 2 years"
         },
         {
           "value": "Not at the moment",
@@ -214,7 +231,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750445840887_2",
+      "id": "q_auto_1757969005264_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -238,31 +255,31 @@ const config = {
   ],
   "footerContact": {
     "social": {
-      "facebook": "https://www.facebook.com/JulianKashaniRealtor",
-      "instagram": "http://instagram.com/juliankashani"
+      "facebook": "https://www.facebook.com/KevinYuRealEstateTeam/",
+      "instagram": "https://instagram.com/kevinyurealestateteam"
     },
     "agentContact": {
-      "name": "Julian Kashani",
+      "name": "Kevin Yu",
       "title": "Real Estate Agent",
-      "phone": "(416) 837-7775",
-      "email": "jk@property.ca"
+      "phone": "416-894-8729",
+      "email": "kevin@kevinyuteam.com"
     },
-    "footerDisclaimer": "This giveaway is sponsored by Julian Kashani, REALTOR®, and is not sponsored by or affiliated with the Toronto Blue Jays or Texas Rangers. Winner selected at random from entries received by July 25th, 2025. Must be 18+ and an Ontario resident to enter.",
+    "footerDisclaimer": "This giveaway is sponsored by the Kevin Yu Real Estate Team and is not sponsored by or affiliated with Barque Smokehouse, Meta, Instagram, or Facebook. No purchase needed. One entry per person. Contest runs Oct 14–Nov 10, 2025. Winner selected at random on Nov 11, 2025. Must be 18+ and a Toronto/GTA resident to enter. Winner must choose their own babysitter. $100 cash and $200 gift card are provided in person at a safe, public location.",
     "organizerLogoUrl": "",
     "secondaryLogoUrl": "",
-    "secondaryLogoAlt": "Property.Ca Brokerage Logo",
-    "organizerName": "Julian Kashani",
-    "brokerageName": "Property.Ca",
-    "address": "36 Distillery Lane Unit 500 Toronto M5A3C4",
-    "email": "jk@property.ca",
-    "phone": "(416) 837-7775",
-    "copyrightOwner": "Property.Ca"
+    "secondaryLogoAlt": "Brokerage Logo",
+    "organizerName": "Kevin Yu Real Estate Team",
+    "brokerageName": "",
+    "address": "",
+    "email": "kevin@kevinyuteam.com",
+    "phone": "416-894-8729",
+    "copyrightOwner": "Kevin Yu Real Estate Team"
   },
   "deploymentInfo": {
-    "repoName": "Giveaway-558",
-    "repoUrl": "https://github.com/arslvn93/Giveaway-558",
-    "netlifyUrl": "http://Giveaway-558.netlify.app",
+    "repoName": "Giveaway-547",
+    "repoUrl": "https://github.com/arslvn93/Giveaway-547",
+    "netlifyUrl": "http://Giveaway-547.netlify.app",
     "netlifyId": "",
-    "tag": "Blue Jays Giveaway"
+    "tag": "Date Night Giveaway"
   }
 };
