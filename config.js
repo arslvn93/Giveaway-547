@@ -2,7 +2,7 @@ const config = {
   "meta": {
     "pageTitle": "Win $300 Date Night: Babysitting + Barque Dinner!",
     "navBrandLogoText": "Kevin Yu",
-    "privacyPolicyLink": ""
+    "privacyPolicyLink": "https://kevinyuteam.com/privacy-policy/"
   },
   "giveaway": {
     "heroHeadline": "Win <span class='highlight'>$100 Babysitting Cash</span> + <span class='highlight'>$200 Barque Dinner</span>!",
@@ -28,16 +28,10 @@ const config = {
     "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-  "thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "You’re In!",
-    "mainMessage": "Your entry for the Date Night Giveaway has been received. We will draw the winner on Nov 11, 2025 and contact them by email. Good luck!",
-    "socialPromptText": "Watch your email on Nov 11. Follow us on Instagram and Facebook for the winner post."
+    "followUpBossEmail": "",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -132,8 +126,6 @@ const config = {
     ]
   },
   "rules": {
-    "finePrintText": "Please read the fine print before entering. Adults 18+ in Toronto/GTA. One entry per person.",
-    "showTipsSection": true,
     "faq": [
       {
         "q": "Who can enter?",
@@ -166,6 +158,8 @@ const config = {
       "Share with a parent who needs a night off",
       "Answer the short questions so we can serve local families better"
     ],
+    "finePrintText": "Please read the fine print before entering. Adults 18+ in Toronto/GTA. One entry per person.",
+    "showTipsSection": true,
     "fairSelectionInfo": {
       "title": "Fair and Random Winner Selection",
       "text": "Every entry has the same chance. We use a random draw tool. No tricks. No buy-in. Just a clean, fair pick."
@@ -182,12 +176,11 @@ const config = {
     },
     "subtitle": "Enter your details for a chance to win a $300 Date Night: babysitting covered and dinner at Barque!",
     "entryCountText": "Local families are entering now. Don’t miss out.",
-    "socialSharePrompt": "Know a parent who needs a break? Share this giveaway:",
-    "entryFormSubmitButtonText": "Enter My Family Now!"
+    "socialSharePrompt": "Know a parent who needs a break? Share this giveaway:"
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1757969005264_0",
+      "id": "q_auto_1759871656723_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -209,7 +202,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757969005264_1",
+      "id": "q_auto_1759871656723_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -231,7 +224,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757969005264_2",
+      "id": "q_auto_1759871656723_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -253,6 +246,18 @@ const config = {
       ]
     }
   ],
+  "thankYouPage": {
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "You’re In!",
+    "mainMessage": "Your entry for the Date Night Giveaway has been received. We will draw the winner on Nov 11, 2025 and contact them by email. Good luck!",
+    "socialPromptText": "Watch your email on Nov 11. Follow us on Instagram and Facebook for the winner post."
+  },
   "footerContact": {
     "social": {
       "facebook": "https://www.facebook.com/KevinYuRealEstateTeam/",
@@ -265,12 +270,12 @@ const config = {
       "email": "kevin@kevinyuteam.com"
     },
     "footerDisclaimer": "This giveaway is sponsored by the Kevin Yu Real Estate Team and is not sponsored by or affiliated with Barque Smokehouse, Meta, Instagram, or Facebook. No purchase needed. One entry per person. Contest runs Oct 14–Nov 10, 2025. Winner selected at random on Nov 11, 2025. Must be 18+ and a Toronto/GTA resident to enter. Winner must choose their own babysitter. $100 cash and $200 gift card are provided in person at a safe, public location.",
-    "organizerLogoUrl": "",
-    "secondaryLogoUrl": "",
+    "organizerLogoUrl": "https://iili.io/KjBGPDl.webp",
+    "secondaryLogoUrl": "https://iili.io/KjBG6N4.webp",
     "secondaryLogoAlt": "Brokerage Logo",
     "organizerName": "Kevin Yu Real Estate Team",
-    "brokerageName": "",
-    "address": "",
+    "brokerageName": "Royal LePage",
+    "address": "800 King St W #102 Toronto, ON M5V 3M7",
     "email": "kevin@kevinyuteam.com",
     "phone": "416-894-8729",
     "copyrightOwner": "Kevin Yu Real Estate Team"
