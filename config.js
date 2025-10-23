@@ -27,12 +27,12 @@ const config = {
     "theme": "dark",
     "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
-    "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "facebookPixelId": "1057475448873422",
+    "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/kys1h9Nel7ldEQrCTyTJ/webhook-trigger/lj87Me8cbWzg0jnQbsYc",
+    "facebookPixelId": "546913245658286",
+    "turnstileSiteKey": "0x4AAAAAAB5SpbWeBo7JnEIs",
     "salesGeniusAppApi": "",
     "followUpBossEmail": "",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
-    "turnstileSiteKey": "0x4AAAAAAB5SpbWeBo7JnEIs"
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -181,7 +181,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1759871662808_0",
+      "id": "q_auto_1761228725365_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -203,7 +203,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1759871662808_1",
+      "id": "q_auto_1761228725365_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -225,7 +225,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1759871662808_2",
+      "id": "q_auto_1761228725365_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -286,6 +286,6 @@ const config = {
     "repoUrl": "https://github.com/arslvn93/Giveaway-547",
     "netlifyUrl": "http://Giveaway-547.netlify.app",
     "netlifyId": "",
-    "tag": "Date Night Giveaway"
+    "tag": "BBQ Date Night Giveaway"
   }
 };
